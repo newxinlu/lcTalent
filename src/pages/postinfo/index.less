@@ -1,0 +1,224 @@
+@import '../style/mixin';
+.info-head {
+  padding: 20px;
+}
+.info-head .head-price{
+  color:@color;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  font-size: 28px;
+}
+.info-head .head-city{
+// background: #F8F8F8;
+padding: 5px;
+display: inline-block;
+font-size: 24px;
+color: #888888
+}
+.head-list {
+  border-top: 1px solid #dbdbdb;
+}
+.head-list >view{
+float: left;
+width: 33%;
+border-right: 1px solid #dbdbdb;
+font-size: 24px;
+margin: 10px 0;
+}
+.head-list >view:last-child{
+  border-right: none;
+}
+.head-list >view >view{
+  padding-left: 20px;
+  font-size: 24px;
+}
+.head-list >view >view:last-child{
+  color: @color;
+  font-size: 28px;
+}
+.info-content{
+  clear: both;
+  border-top:10px solid #F5F5F6;
+  padding: 20px;
+
+}
+.info-content .info-title{
+
+  font-size: 28px;
+  font-weight: 700;
+  display: block;
+  border-left:8rpx solid @color;
+  padding-left:10rpx;
+
+}
+.info-content .infon-con{
+  line-height: 2;
+color: #7A7A7A;
+  font-size: 26px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.ellipsis{
+  -webkit-line-clamp:3; // 最多显示3行
+}
+.unellipsis{
+  -webkit-line-clamp:0; // 全部显示
+}
+.info-look{
+  background-color:#fff;
+  display: inline-block;
+  color: @color;
+  border: 0px solid #fff;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.info-bounty{
+
+
+  display: flex;
+  align-items: center;
+}
+.info-bounty > view {
+  color: @color;
+  flex: 1 auto;
+  text-align: right;
+}
+.icon-right{
+  float: right;
+  transform : translate3d(0, 100%, 0);
+}
+.info-content >map{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 70px;
+}
+.head-title{
+  padding: 10px 0;
+  font-weight: bold;
+}
+button{
+  border-radius: 0;
+}
+view >cover-view{
+  position: fixed;
+  left:0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+.oklc cover-view{
+  position: fixed;
+  left:30%;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  color: #fff;
+  background: @color;
+  border-radius: 0px;
+  border:none;
+  font-size: 30px;
+  height: 80px;
+  box-sizing: border-box;
+  border-right: 1px solid #fff;
+}
+.callme cover-view{
+  position: fixed;
+  left: 65%;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  color: #fff;
+  background: @color;
+  border-radius: 0px;
+  border:none;
+  font-size: 30px;
+  height: 80px;
+
+}
+.info-conmpany{
+  display: flex;
+align-items: center;
+}
+.info-conmpany > view:last-child{
+  flex: 1 auto;
+  text-align: right;
+}
+.wxParse-p{
+  font-size: 24px;
+}
+.info-name{
+  font-size: 26px;
+}
+.share,.attention{
+//  line-height: 100px;
+}
+.share cover-view{
+  position: fixed;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  width: 15%;
+  color: #666567;
+  background: #fff;
+  border-radius: 0px;
+  border:none;
+  font-size: 30px;
+  height: 80px;
+  line-height: 3.7;
+}
+.share cover-image,.attention cover-image{
+  width:  30%;
+  height: 35%;
+position: relative;
+left: 35%;
+top:10px;
+
+}
+
+.share cover-view text{
+  display: block;
+  height: 0;
+}
+.attention cover-view text{
+  display: block;
+  height: 0;
+}
+.attention cover-view{
+  position: fixed;
+  left: 15%;
+  right: 0;
+  bottom: 0;
+  width: 15%;
+  color: #666567;
+  background: #fff;
+  border-radius: 0px;
+  border:none;
+  font-size: 30px;
+  height: 80px;
+  line-height: 3.7;
+}
+.share-title,.attention-title{
+
+  font-size: 24px;
+}
+// cover-view button:first-child{
+//   border-right: 2px solid #fff;
+// }
+.info-hide{
+  height: 100px;
+  overflow: hidden;
+}
+.info-show {
+  height: 100%;
+}
+.title-mai{
+  margin-bottom: 10px;
+}
+.info-bold{
+  // font-weight: 700;
+  margin: 0 0 10px 0;
+}

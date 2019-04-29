@@ -1,0 +1,224 @@
+// @color : #54CAC3;
+@bradius:10px;
+@color : #0bb76b;
+@acolor:#aaa;
+@fcolor:#f5f5f6;
+@bradius:10px;
+@dbcolor:#0f2434;
+@wcolor:#fff;
+button[type="primary"]{
+  background-color: @color;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 978559 */
+  src: url('//at.alicdn.com/t/font_978559_u8jwhmit1f.eot');
+  src: url('//at.alicdn.com/t/font_978559_u8jwhmit1f.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_978559_u8jwhmit1f.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_978559_u8jwhmit1f.woff') format('woff'),
+  url('//at.alicdn.com/t/font_978559_u8jwhmit1f.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_978559_u8jwhmit1f.svg#iconfont') format('svg');
+}
+// @font-face {font-family: 'webfont';
+//   src: url('//at.alicdn.com/t/webfont_aigsdxcbqfo.eot'); /* IE9*/
+//   src: url('//at.alicdn.com/t/webfont_aigsdxcbqfo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//   url('//at.alicdn.com/t/webfont_aigsdxcbqfo.woff') format('woff'), /* chrome、firefox */
+//   url('//at.alicdn.com/t/webfont_aigsdxcbqfo.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+//   url('//at.alicdn.com/t/webfont_aigsdxcbqfo.svg#站酷高端黑') format('svg'); /* iOS 4.1- */
+// }
+
+.fixed-botton{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.fixed-botton button{
+float: left;
+width: 50%;
+color: #fff;
+background: @color;
+border-radius: 0px;
+border:none;
+font-size: 30px;
+}
+.fixed-botton button:first-child{
+  border-right: 2px solid #fff;
+}
+.button-hover[type="primary"]{
+  background-color: @color;
+}
+.show{ display:block;}
+.hide{ display:none !important;}
+.dowm-view{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.view-bonttm{
+  margin-bottom: 100rpx;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:24rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.color-main{
+  color:@color;
+}
+.font-right{
+float: right;
+}
+.icon-gary{
+  color:#E7E7E7;
+}
+.color-gary{
+  color: #AEAEAE;
+}
+.icon-tixian:before {
+  content: "\e618";
+}
+.icon-fenxiang:before { content: "\e633"; }
+
+.icon-shouye:before { content: "\e610"; }
+
+.icon-qiandao0101:before { content: "\e617"; }
+
+.icon-search:before { content: "\e616"; }
+
+.icon-maikefeng:before { content: "\e65f"; }
+
+.icon-webicon17:before { content: "\e67b"; }
+
+.icon-iconfontzhizuobiaozhun023108:before { content: "\e66e"; }
+
+.icon-rencaizhongxin:before { content: "\e63c"; }
+
+.icon-dianzan:before { content: "\e61a"; }
+
+.icon-xiajiantou:before { content: "\e600"; }
+
+.icon-tongzhi:before { content: "\e647"; }
+
+.icon-wujiaoxingkong:before { content: "\e646"; }
+
+.icon-dkw_tianxie:before { content: "\e605"; }
+
+.icon-youjiantou:before { content: "\e678"; }
+
+.icon-tongxunlu:before { content: "\e660"; }
+
+.icon-shezhi:before { content: "\e60e"; }
+
+.icon-xiaoxi:before { content: "\e60f"; }
+
+.icon-xiaoxi1:before { content: "\e606"; }
+
+.icon-bijiben:before { content: "\e607"; }
+
+.icon-My:before { content: "\e615"; }
+
+.icon-renzheng:before { content: "\e60a"; }
+
+.icon-zhifeiji:before { content: "\e681"; }
+
+.icon-wenhao:before { content: "\e634"; }
+
+.icon-yue:before { content: "\e601"; }
+
+.icon-zhanghuyue-chongzhi::before {content: "\e67c"; }
+.icon-tixing:before {
+  content: "\e6d0";
+}
+.icon-guanzhu:before {
+  content: "\e621";
+}
+.icon-mendiangangwei_huaban:before {
+  content: "\e622";
+}
+.icon-weibiaoti105:before {
+  content: "\e609";
+}
+.icon-icon_share:before {
+  content: "\e608";
+}
+.icon-duihao:before {
+  content: "\e61e";
+}
+.usercell {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 28px;
+}
+.celltitle {
+  flex: none;
+  width: 200px;
+}
+.cellvalue {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.cellvalue view {
+  width: 100%;
+  text-align: right;
+}
+.cellvalue input {
+  width: 100%;
+}
+.celltext {
+  display: block;
+  width: 100%;
+}
+
+.celltext {
+  padding: 20px 0;
+  width: 100%;
+}
+.celltext textarea {
+  width: 90%;
+  background: #fff;
+  min-height: 100px;
+  padding: 0 20px;
+  font-size: 24px;
+}
+.com-botton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.com-botton button {
+  width: 100%;
+  background: @color;
+  border: none;
+  color: #fff;
+}
+.icon-Group-:before {
+  content: "\e6ae";
+}
+// button[disabled] {
+//   color:rgba(255, 255, 255, 0.6);
+//   background-color:@color;
+//   }
+.nullclist {
+  text-align: center;
+  padding: 50px 20px;
+}
+.nullclist > text {
+  font-size: 100rpx;
+  color: @color;
+  margin-bottom: 20px;
+}
+.nullclist > view{
+font-size: 28px;
+}

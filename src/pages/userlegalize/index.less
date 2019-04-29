@@ -1,0 +1,89 @@
+@import '../style/mixin';
+
+.usercell {
+display: flex;
+align-items: center;
+padding: 20px;
+background: #fff;
+border-bottom: 1px solid #dbdbdb;
+font-size: 28px;
+}
+.celltitle {
+flex: none;
+width: 200px;
+}
+.cellvalue {
+width: 100%;
+text-align: right;
+display: flex;
+flex: 1;
+align-items: center;
+
+}
+.cellvalue view{
+width: 100%;
+text-align: right;
+}
+.cellvalue input{
+width: 100%;
+}
+.celltext{
+display: block;
+width: 100%;
+}
+
+.celltext{
+padding: 20px 0;
+width: 100%;
+}
+.celltext textarea{
+width: 90%;
+background:#fff;
+min-height:100px;
+padding:0 20px;
+font-size: 24px;
+}
+.com-botton {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+}
+.com-botton button {
+width: 100%;
+background: @color;
+border: none;
+color: #fff;
+}
+.code{
+width: 60% !important;
+}
+.mycode{
+background-color:@color;
+color: #fff;
+border: none;
+width: 32%;
+height: 40prx;
+line-height: 40prx;
+font-size: 20px;
+padding-left:0;
+padding-right: 0;
+margin-left:8%;
+border-radius: 5prx;
+}
+button:disabled {
+box-shadow: none;
+opacity: .65;
+}
+.oklegalize {
+  text-align: center;
+margin: 50px 30px;
+}
+.oklegalize >text{
+  color: @color;
+  font-size: 100px;
+}
+.oklegalize >view{
+  font-size: 28px;
+}

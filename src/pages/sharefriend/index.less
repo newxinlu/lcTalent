@@ -1,0 +1,63 @@
+@import '../style/mixin';
+
+.imglist{
+  height: 160px;
+  white-space: nowrap;
+  display: flex;
+// padding: 0 10px;
+margin-right: 20px;
+width: auto;
+}
+
+.imglist view {
+  width: 120px;
+  height: 160px;
+  padding-left: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.imglist view > image{
+  width: 100%;
+  height: 100%;
+
+}
+.addimg{
+
+position: relative;
+border:1px solid #D9D9D9;
+overflow: hidden;
+box-sizing: border-box;
+}
+.addimg::after{
+  content: ' ';
+  height: 2px;
+  width:60%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background-color: #D9D9D9;
+}
+.addimg::before{
+  content: ' ';
+  height: 60%;
+  width: 5px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background-color: #D9D9D9;
+}
+.showimg{
+  text-align: center;
+  margin: 50px 0;
+
+}
+.showimg >image{
+  width: 450rpx;
+  height: 600rpx;
+}
+.showimg canvas{
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #888888;
+}

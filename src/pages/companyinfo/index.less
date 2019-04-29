@@ -1,0 +1,131 @@
+@import '../style/mixin';
+page{
+    width: 100%;
+    height: 100%;
+    background-color: @fcolor;
+}
+View{
+    background-color: @wcolor;
+}
+.top{
+    padding: 32rpx;
+    overflow: hidden;
+}
+.top_left{
+    float: left;
+}
+.top_left_up{
+    font-size:40rpx;
+    margin-bottom: 24rpx;
+    font-weight:bold;
+}
+.top_left_down{
+    font-size: 24rpx;
+    color: @color
+}
+.image{
+    float: right;
+    width: 120rpx;
+    height: 120rpx;
+}
+.resume{
+    padding: 32rpx;
+    font-size:40rpx;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.resume text{
+    font-size:24rpx;
+    font-weight: normal;
+    font-style:normal
+}
+.company{
+    margin-top: 32rpx;
+    padding: 32rpx;
+    font-size:28rpx;
+}
+.company_address{
+    margin: 24rpx 0;
+    font-size: 32rpx;
+}
+.company_address text{
+    font-size: 24rpx;
+    margin-left: 15rpx;
+    // color: @acolor;
+}
+.company_content{
+    width: calc(100%-4rpx);
+    padding: 0rpx 0 16rpx 0rpx;
+    overflow: hidden;
+}
+.company_content > view{
+  padding: 5px;
+  float: left;
+  font-size: 24rpx;
+  background: #f0fffa;
+  margin-left: 10px;
+}
+.company_content > view:first-child{
+    margin-left: 0px;
+  }
+.contacts{
+    margin-top: 24rpx;
+    padding: 32rpx;
+    font-size:32rpx;
+}
+.contacts_title{
+    margin-bottom: 24rpx;
+    font-size: 38rpx;
+    font-weight: bold
+}
+.contacts_people{
+    font-size:24rpx;
+}
+.recommended{
+    margin: 24rpx 0 100rpx 0;
+    padding: 32rpx;
+}
+.recommended_title{
+    font-size:32rpx;
+}
+.image2{
+    width: 80rpx;
+    height: 80rpx;
+    float: left;
+}
+.recommended_content{
+    font-size:28rpx;
+    margin: 0 24rpx;
+    padding: 24rpx 0;
+    overflow: hidden;
+    border-bottom: 2rpx solid @fcolor;
+}
+.recommended_right{
+    margin-left: 24rpx;
+    float: left;
+}
+.recommended_right_down{
+    font-size:24rpx;
+    margin-top: 8rpx;
+    color:@acolor;
+}
+.recommended_content:last-child{
+    border: none;
+}
+.sw{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.sw image{
+  width: 100%;
+  height: 100%;
+}
+.count{
+    position: absolute;
+    top:200rpx;right:60rpx;
+    color: @wcolor;
+    background-color: @acolor;
+    padding: 6rpx 10rpx;
+    font-size:24rpx;
+}

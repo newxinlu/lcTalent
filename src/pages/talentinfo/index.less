@@ -1,0 +1,65 @@
+@import '../style/mixin';
+page{
+    background-color: @fcolor
+}
+view{
+    background-color: @wcolor;
+}
+.framework{
+    font-size: 24rpx;
+    margin: 0 24rpx;
+    padding: 24rpx 0;
+    border-bottom: 1rpx solid @fcolor;
+    overflow: hidden;
+}
+.textone{
+    width: 20%;
+    display: block;
+    float: left;
+}
+.texttwo{
+    float: right;
+}
+.framework input{
+    font-size:20rpx !important;
+    float: right;
+    height: 32rpx !important;
+    min-height: 0rpx !important;
+    text-align: right;
+}
+.down{
+    margin: 24rpx 0 100rpx 0;
+}
+.down_title{
+    font-size:24rpx;
+    padding: 24rpx;
+    border-bottom: 1rpx solid @fcolor;
+}
+ul{
+    height: auto;
+}
+ul span{
+    position: absolute;
+    top: 30rpx;left: -50rpx;
+    width: 20rpx;
+    height: 20rpx;
+    background-color: @color;
+    border-radius: 50%;
+}
+li{
+    position: relative;
+    display:block;
+    font-size:24rpx;
+    margin-left: 100rpx;
+    padding: 24rpx 0;
+    border-bottom: 1rpx solid @fcolor;
+
+}
+.my-line{
+position: absolute;
+width: 2rpx;
+height: 90rpx;
+left: -42rpx;
+top:40rpx;
+background: @color;
+}

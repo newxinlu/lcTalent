@@ -1,0 +1,42 @@
+@import '../style/mixin';
+.showimg canvas{
+  display: block;
+ margin:  0 auto;
+ box-shadow: 10px 10px 5px #888888;
+ margin-bottom: 20px;
+}
+.tabText {
+  display: flex;
+  border:1px solid @color;
+  width: 300px;
+  font-size: 28px;
+  border-radius: @bradius;
+}
+.tabText .tabitem{
+  flex: 1 auto;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
+}
+.tabactive{
+  background: @color;
+}
+.tabgoodtext,.tabmyext{
+  font-size: 24px;
+  background: #f5f5f5;
+}
+.tabmyext{
+  padding: 20px;
+margin:  0 auto;
+}
+.tabgoodtext label{
+height: 40px;
+width: 40px;
+
+}
+.tabgoodtext radio{
+  display: block;
+  width: 100%;
+  padding:10px;
+
+}
